@@ -24,7 +24,7 @@ func NewMapAlgo(recs []structs.Rectangle) MapAlgo {
 
 func (ma *MapAlgo) QueryPoint(point structs.Point) int {
 	zippedPoint := structs.NewPoint(zipCord(ma.xZippedCoords, point.X), zipCord(ma.yZippedCoords, point.Y))
-	if ma.isPointBeyondMap(zippedPoint) {
+	if ma.isPointBeyondMap(point) {
 		return 0
 	}
 	return ma.preparedMap[zippedPoint.X][zippedPoint.Y]
@@ -71,6 +71,9 @@ func (ma *MapAlgo) removeDuplicates(sortedCoords []int) []int {
 }
 
 func (ma *MapAlgo) isPointBeyondMap(point structs.Point) bool {
+	if point.X < ma.xZippedCoords[0] || point.Y < ma.yZippedCoords[0] {
+		return true
+	}
 	return false
 }
 
