@@ -1,7 +1,6 @@
 package algo
 
 import (
-	"fmt"
 	"lab2/src/structs"
 	"sort"
 )
@@ -56,8 +55,7 @@ func (pta *PersistentTreeAlgo) Prepare() {
 
 	prevZippedX := events[0].ZippedX
 	var val int
-	for index, ev := range events {
-		fmt.Print(index)
+	for _, ev := range events {
 		if ev.ZippedX != prevZippedX {
 			pta.roots = append(pta.roots, root)
 			pta.rootsZippedX = append(pta.rootsZippedX, prevZippedX)
