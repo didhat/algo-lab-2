@@ -1,15 +1,22 @@
 package algo
 
 import (
+	"lab2/src/generator"
 	"lab2/src/structs"
 	"testing"
 )
 
-var testDataForBasicRecs = []struct {
+type testCaseForAlgo struct {
 	name          string
 	pointForCheck structs.Point
 	expected      int
-}{
+}
+
+func newTestCase(name string, pointForCheck structs.Point, expected int) testCaseForAlgo {
+	return testCaseForAlgo{name: name, pointForCheck: pointForCheck, expected: expected}
+}
+
+var testDataForBasicRecs = []testCaseForAlgo{
 	{"first", structs.NewPoint(2, 2), 1},
 	{"second", structs.NewPoint(12, 12), 1},
 	{"third", structs.NewPoint(10, 4), 2},
@@ -51,4 +58,22 @@ func TestBasicAlgo_QueryPoint(t *testing.T) {
 	if res != 1 {
 		t.Error("error: excepted: 1, get:", res)
 	}
+}
+
+func generateRandomTestCase(recsNumber, pointNumberForCheck int) ([]structs.Rectangle, []testCaseForAlgo) {
+	rectangles := generator.GenerateRectangles(recsNumber)
+	minX, maxX, minY, maxY := 0, 10*2*recsNumber, 0, 10*2*recsNumber
+
+	pointsForCheck := generator.GeneratePoints(pointNumberForCheck, minX, maxX, minY, maxY)
+
+	basicAlgoForGetRightAnswer := NewBasicAlgo(rectangles)
+	basicAlgoForGetRightAnswer.Prepare()
+	testCases := make([]testCaseForAlgo, 0, pointNumberForCheck)
+
+	for _, point := range pointsForCheck {
+		expected := basicAlgoForGetRightAnswer.QueryPoint(point)
+		testCases = append(testCases, newTestCase("random", point, expected))
+	}
+
+	return rectangles, testCases
 }

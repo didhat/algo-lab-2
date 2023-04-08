@@ -33,3 +33,19 @@ func TestPersistentTreeAlgo_QueryPoint(t *testing.T) {
 		})
 	}
 }
+
+func TestPersistentTreeAlgo_QueryPointWithRandomTestCases(t *testing.T) {
+	recs, testCases := generateRandomTestCase(100, 1000)
+	algo := NewPersistentTreeAlgo(recs)
+	algo.Prepare()
+
+	for _, d := range testCases {
+		t.Run(d.name, func(t *testing.T) {
+			result := algo.QueryPoint(d.pointForCheck)
+			if result != d.expected {
+				t.Errorf("Expected %d, got %d", d.expected, result)
+			}
+		})
+	}
+
+}

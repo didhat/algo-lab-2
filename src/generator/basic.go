@@ -9,7 +9,7 @@ func GenerateRectangles(rectanglesNumber int) []structs.Rectangle {
 	rectangles := make([]structs.Rectangle, 0, rectanglesNumber)
 
 	for i := 1; i <= rectanglesNumber; i++ {
-		rectangles = append(rectangles, structs.NewRectangleFromPrimitives(10*i, 10*i, 10*(2*rectanglesNumber-1), 10*(2*rectanglesNumber-1)))
+		rectangles = append(rectangles, structs.NewRectangleFromPrimitives(10*i, 10*i, 10*(2*rectanglesNumber-i), 10*(2*rectanglesNumber-i)))
 	}
 	return rectangles
 }
