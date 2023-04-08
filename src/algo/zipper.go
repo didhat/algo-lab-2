@@ -15,8 +15,8 @@ func createZippedCordsFromRecs(recs []structs.Rectangle) ZippedCordsImp {
 	yCords := make([]int, 0, len(recs)*4)
 
 	for _, rec := range recs {
-		xCords = append(xCords, rec.LeftDown.X, rec.LeftDown.X+1, rec.RightTop.X, rec.RightTop.X+1)
-		yCords = append(yCords, rec.LeftDown.Y, rec.LeftDown.Y+1, rec.RightTop.Y, rec.RightTop.Y+1)
+		xCords = append(xCords, rec.LeftDown.X, rec.RightTop.X, rec.RightTop.X+1)
+		yCords = append(yCords, rec.LeftDown.Y, rec.RightTop.Y, rec.RightTop.Y+1)
 	}
 
 	sort.Sort(sort.IntSlice(xCords))
@@ -38,6 +38,18 @@ func (zp ZippedCordsImp) IsPointBeyondZippedField(point structs.Point) bool {
 		return true
 	}
 	return false
+}
+
+func (zp ZippedCordsImp) GetZippedX(x int) int {
+	return findPointPosition(zp.zippedXCords, x)
+}
+
+func (zp ZippedCordsImp) GetZippedY(y int) int {
+	return findPointPosition(zp.zippedYCords, y)
+}
+
+func (zp ZippedCordsImp) YSegmentsNumber() int {
+	return len(zp.zippedYCords)
 }
 
 func removeDuplicates(sortedCoords []int) []int {
