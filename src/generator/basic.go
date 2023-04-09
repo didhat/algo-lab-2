@@ -22,3 +22,33 @@ func GeneratePoints(pointsNumber, minX, maxX, minY, maxY int) []structs.Point {
 	}
 	return points
 }
+
+type BenchmarkTestCase struct {
+	Rectangles []structs.Rectangle
+	Points     []structs.Point
+}
+
+func NewBenchmarkTestCase(recs []structs.Rectangle, points []structs.Point) BenchmarkTestCase {
+	return BenchmarkTestCase{Rectangles: recs, Points: points}
+}
+
+func generateTestCaseForBenchmarks(rectanglesNumber, pointsNumber int) BenchmarkTestCase {
+	recs := GenerateRectangles(rectanglesNumber)
+	points := GeneratePoints(pointsNumber, 0, 10*(2*rectanglesNumber), 0, 10*(2*rectanglesNumber))
+
+	return NewBenchmarkTestCase(recs, points)
+
+}
+
+func GenerateManyTestsForBenchMark() []BenchmarkTestCase {
+	pointsNumber := 100
+	rectanglesNumbers := []int{100, 500, 1000, 2000}
+
+	testCases := make([]BenchmarkTestCase, 0, len(rectanglesNumbers))
+
+	for _, recsNumber := range rectanglesNumbers {
+		testCases = append(testCases, generateTestCaseForBenchmarks(recsNumber, pointsNumber))
+	}
+
+	return testCases
+}

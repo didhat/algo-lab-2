@@ -1,6 +1,7 @@
 package algo
 
 import (
+	"fmt"
 	"lab2/src/generator"
 	"lab2/src/structs"
 	"testing"
@@ -76,4 +77,18 @@ func generateRandomTestCase(recsNumber, pointNumberForCheck int) ([]structs.Rect
 	}
 
 	return rectangles, testCases
+}
+
+func BenchmarkBasicAlgo_QueryPoint(b *testing.B) {
+	benchMarksTests := generator.GenerateManyTestsForBenchMark()
+
+	for _, v := range benchMarksTests {
+		algo := NewBasicAlgo(v.Rectangles)
+		b.Run(fmt.Sprintf("Recs:%d", len(v.Rectangles)), func(b *testing.B) {
+			for _, point := range v.Points {
+				algo.QueryPoint(point)
+			}
+		})
+	}
+
 }

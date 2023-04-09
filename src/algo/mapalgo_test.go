@@ -1,6 +1,8 @@
 package algo
 
 import (
+	"fmt"
+	"lab2/src/generator"
 	"testing"
 )
 
@@ -38,6 +40,33 @@ func TestMapAlgo_QueryPointWithRandomTestCase(t *testing.T) {
 			result := algo.QueryPoint(d.pointForCheck)
 			if result != d.expected {
 				t.Errorf("Expected %d, got %d", d.expected, result)
+			}
+		})
+	}
+
+}
+
+func BenchmarkMapAlgo_Prepare(b *testing.B) {
+	benchMarkTests := generator.GenerateManyTestsForBenchMark()
+
+	for _, v := range benchMarkTests {
+		b.Run(fmt.Sprintf("MapAlgo:%d", len(v.Rectangles)), func(b *testing.B) {
+			algo := NewMapAlgo(v.Rectangles)
+			algo.Prepare()
+		})
+	}
+
+}
+
+func BenchmarkMapAlgo_QueryPoint(b *testing.B) {
+	benchmarkTests := generator.GenerateManyTestsForBenchMark()
+
+	for _, v := range benchmarkTests {
+		algo := NewMapAlgo(v.Rectangles)
+		algo.Prepare()
+		b.Run(fmt.Sprintf("MapAlgo:%d", len(v.Rectangles)), func(b *testing.B) {
+			for _, point := range v.Points {
+				algo.QueryPoint(point)
 			}
 		})
 	}
