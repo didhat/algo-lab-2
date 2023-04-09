@@ -61,7 +61,7 @@ func TestBasicAlgo_QueryPoint(t *testing.T) {
 	}
 }
 
-func generateRandomTestCase(recsNumber, pointNumberForCheck int) ([]structs.Rectangle, []testCaseForAlgo) {
+func GenerateRandomTestCase(recsNumber, pointNumberForCheck int) ([]structs.Rectangle, []testCaseForAlgo) {
 	rectangles := generator.GenerateRectangles(recsNumber)
 	minX, maxX, minY, maxY := 0, 10*2*recsNumber, 0, 10*2*recsNumber
 

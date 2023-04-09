@@ -7,6 +7,6 @@ type Event struct {
 	ZippedYEnd   int
 }
 
-func NewEvent(zippedX int, isStart bool, zippedXStart int, zippedYEnd int) Event {
-	return Event{ZippedX: zippedX, IsStart: isStart, ZippedYStart: zippedXStart, ZippedYEnd: zippedYEnd}
+func NewEvent(zippedX int, isStart bool, zippedYStart int, zippedYEnd int) Event {
+	return Event{ZippedX: zippedX, IsStart: isStart, ZippedYStart: zippedYStart, ZippedYEnd: zippedYEnd}
 }

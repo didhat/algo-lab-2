@@ -31,7 +31,7 @@ func TestMapAlgo_QueryPoint(t *testing.T) {
 }
 
 func TestMapAlgo_QueryPointWithRandomTestCase(t *testing.T) {
-	recs, testCases := generateRandomTestCase(100, 100)
+	recs, testCases := GenerateRandomTestCase(100, 100)
 	algo := NewMapAlgo(recs)
 	algo.Prepare()
 

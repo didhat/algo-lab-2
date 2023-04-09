@@ -37,7 +37,7 @@ func TestPersistentTreeAlgo_QueryPoint(t *testing.T) {
 }
 
 func TestPersistentTreeAlgo_QueryPointWithRandomTestCases(t *testing.T) {
-	recs, testCases := generateRandomTestCase(100, 1000)
+	recs, testCases := GenerateRandomTestCase(100, 1000)
 	algo := NewPersistentTreeAlgo(recs)
 	algo.Prepare()
 
