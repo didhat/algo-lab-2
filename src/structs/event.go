@@ -2,11 +2,11 @@ package structs
 
 type Event struct {
 	ZippedX      int
-	IsOpen       bool
+	IsStart      bool
 	ZippedYStart int
 	ZippedYEnd   int
 }
 
-func NewEvent(zippedX int, isOpen bool, zippedXStart int, zippedYStart int) Event {
-	return Event{ZippedX: zippedX, IsOpen: isOpen, ZippedYStart: zippedXStart, ZippedYEnd: zippedYStart}
+func NewEvent(zippedX int, isStart bool, zippedXStart int, zippedYEnd int) Event {
+	return Event{ZippedX: zippedX, IsStart: isStart, ZippedYStart: zippedXStart, ZippedYEnd: zippedYEnd}
 }
