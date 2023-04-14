@@ -16,8 +16,8 @@ algo_per_label: Final = {
 }
 
 operation_per_name: Final = {
-    OperationType.query: "Время запроса",
-    OperationType.prepare: "Время подготовки для запросов",
+    OperationType.query: "Время запроса (Query)",
+    OperationType.prepare: "Время подготовки для запросов (Prepare)",
 }
 
 
@@ -25,10 +25,8 @@ def algo2label(algo: AlgorithmType) -> str:
     return algo_per_label.get(algo)
 
 
-def operation2plot_name(operation: OperationType, is_log: bool = False) -> str:
+def operation2plot_name(operation: OperationType) -> str:
     name = operation_per_name.get(operation)
-    if is_log:
-        name = name + " (логарифмические)"
 
     return name
 
