@@ -20,3 +20,13 @@ class TestParse(TestCase):
             bench.rec_and_points_number,
             100,
         )
+
+    def test_parse_exec_with_float(self):
+        bench_data: BencDataDict = {
+            "Output": "BenchmarkAllAlgoQueryPoint/basicAlgo:Query:10-12         \t 7619084\t       166.2 ns/op\n",
+            "Action": BencDataAction.output,
+        }
+
+        bench = parse(bench_data["Output"])
+
+        self.assertEqual(bench.exec_time, 166.2)

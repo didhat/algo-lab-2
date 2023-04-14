@@ -24,7 +24,7 @@ def parse(out: str) -> BenchMark:
 
 
 def _get_time_execution(out: str) -> nanoseconds:
-    return int(out.split()[-2])
+    return float(out.split()[-2])
 
 
 def _get_recs_and_points_number(out: str) -> int:
