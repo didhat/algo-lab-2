@@ -11,11 +11,12 @@ test:
 	go test -v ./...
 
 benchmark:
-	go test -v -bench=.  ./...
+	go test -v -bench=BenchmarkAll* -run=^a.  ./...
 
 graphs:
 	mkdir -p data
 	go test -v -json  -count=1 -bench=BenchmarkAll* -run=^a ./... > data/benchdata
+	python -m visual.src.run
 
 
 python-tests:
