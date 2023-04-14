@@ -14,5 +14,9 @@ benchmark:
 	go test -v -bench=.  ./...
 
 graphs:
-	mkdir data
-	go test -v -json  -count=1 -bench=BenchmarkAll*  ./... > data/benchdata
+	mkdir -p data
+	go test -v -json  -count=1 -bench=BenchmarkAll* -run=^a ./... > data/benchdata
+
+
+python-tests:
+	python -m unittest discover  -v -s visual/

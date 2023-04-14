@@ -10,48 +10,56 @@ func BenchmarkAllAlgoPreparing(b *testing.B) {
 	testCases := generator.GenerateManyTestsForBenchMark()
 
 	for _, v := range testCases {
-		mapAlgo := NewMapAlgo(v.Rectangles)
+		//mapAlgo := NewMapAlgo(v.Rectangles)
 		treeAlgo := NewPersistentTreeAlgo(v.Rectangles)
 
-		b.Run(fmt.Sprintf("mapAlgo:Prepare:%d", len(v.Rectangles)), func(b *testing.B) {
-			mapAlgo.Prepare()
-		})
+		//b.Run(fmt.Sprintf("mapAlgo:Prepare:%d", len(v.Rectangles)), func(b *testing.B) {
+		//	mapAlgo.Prepare()
+		//})
 
 		b.Run(fmt.Sprintf("treeAlgo:Prepare:%d", len(v.Rectangles)), func(b *testing.B) {
-			treeAlgo.Prepare()
+			for i := 0; i < b.N; i++ {
+				treeAlgo.Prepare()
+			}
 		})
 
 	}
 
 }
 
+var blackhole int
+
 func BenchmarkAllAlgoQueryPoint(b *testing.B) {
 	testCases := generator.GenerateManyTestsForBenchMark()
 
 	for _, v := range testCases {
 		basicAlgo := NewBasicAlgo(v.Rectangles)
-		mapAlgo := NewMapAlgo(v.Rectangles)
+		//mapAlgo := NewMapAlgo(v.Rectangles)
 		treeAlgo := NewPersistentTreeAlgo(v.Rectangles)
 
 		basicAlgo.Prepare()
-		mapAlgo.Prepare()
+		//mapAlgo.Prepare()
 		treeAlgo.Prepare()
 
 		b.Run(fmt.Sprintf("basicAlgo:Query:%d", len(v.Rectangles)), func(b *testing.B) {
-			for _, point := range v.Points {
-				basicAlgo.QueryPoint(point)
+			for i := 0; i < b.N; i++ {
+				for _, point := range v.Points {
+					blackhole = basicAlgo.QueryPoint(point)
+				}
 			}
 		})
 
-		b.Run(fmt.Sprintf("mapAlgo:Query:%d", len(v.Rectangles)), func(b *testing.B) {
-			for _, point := range v.Points {
-				mapAlgo.QueryPoint(point)
-			}
-		})
+		//b.Run(fmt.Sprintf("mapAlgo:Query:%d", len(v.Rectangles)), func(b *testing.B) {
+		//	for _, point := range v.Points {
+		//		mapAlgo.QueryPoint(point)
+		//	}
+		//})
 
 		b.Run(fmt.Sprintf("treeAlgo:Query:%d", len(v.Rectangles)), func(b *testing.B) {
-			for _, point := range v.Points {
-				treeAlgo.QueryPoint(point)
+			for i := 0; i < b.N; i++ {
+				for _, point := range v.Points {
+					blackhole = treeAlgo.QueryPoint(point)
+				}
 			}
 		})
 

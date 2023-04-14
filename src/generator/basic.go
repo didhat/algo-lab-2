@@ -41,13 +41,13 @@ func generateTestCaseForBenchmarks(rectanglesNumber, pointsNumber int) Benchmark
 }
 
 func GenerateManyTestsForBenchMark() []BenchmarkTestCase {
-	pointsNumber := 100
-	rectanglesNumbers := []int{100, 500, 1000, 2000}
+	//pointsNumber := 100
+	rectanglesNumbers := []int{100, 500, 1000, 2000, 10000, 20000, 30000, 40000, 50000, 100000}
 
 	testCases := make([]BenchmarkTestCase, 0, len(rectanglesNumbers))
 
 	for _, recsNumber := range rectanglesNumbers {
-		testCases = append(testCases, generateTestCaseForBenchmarks(recsNumber, pointsNumber))
+		testCases = append(testCases, generateTestCaseForBenchmarks(recsNumber, recsNumber))
 	}
 
 	return testCases
