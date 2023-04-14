@@ -42,7 +42,7 @@ func generateTestCaseForBenchmarks(rectanglesNumber, pointsNumber int) Benchmark
 
 func GenerateManyTestsForBenchMark() []BenchmarkTestCase {
 	//pointsNumber := 100
-	rectanglesNumbers := []int{100, 500, 1000, 2000, 10000, 20000, 30000, 40000, 50000, 100000}
+	rectanglesNumbers := []int{10, 20, 50, 80, 100, 150, 250, 300, 400, 450, 500, 600, 700, 800, 900, 1000}
 
 	testCases := make([]BenchmarkTestCase, 0, len(rectanglesNumbers))
 
