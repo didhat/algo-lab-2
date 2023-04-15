@@ -13,8 +13,7 @@ type PersistentTreeAlgo struct {
 }
 
 func NewPersistentTreeAlgo(recs []structs.Rectangle) PersistentTreeAlgo {
-	zipped := createZippedCordsFromRecs(recs)
-	return PersistentTreeAlgo{recs: recs, zipCords: zipped}
+	return PersistentTreeAlgo{recs: recs}
 }
 
 func (pta *PersistentTreeAlgo) QueryPoint(point structs.Point) int {
@@ -30,6 +29,7 @@ func (pta *PersistentTreeAlgo) QueryPoint(point structs.Point) int {
 }
 
 func (pta *PersistentTreeAlgo) Prepare() {
+	pta.zipCords = createZippedCordsFromRecs(pta.recs)
 	events := pta.createEventsForPersistentSegTree()
 	pta.createPersistentSegmentTree(events)
 }

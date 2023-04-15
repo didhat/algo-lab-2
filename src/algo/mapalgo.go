@@ -15,8 +15,7 @@ func NewMapAlgo(recs []structs.Rectangle) MapAlgo {
 	for index := range mapForPrepare {
 		mapForPrepare[index] = make([]int, len(recs)*4)
 	}
-	zipped := createZippedCordsFromRecs(recs)
-	return MapAlgo{recs: recs, preparedMap: mapForPrepare, zipCords: zipped}
+	return MapAlgo{recs: recs, preparedMap: mapForPrepare}
 }
 
 func (ma *MapAlgo) QueryPoint(point structs.Point) int {
@@ -28,6 +27,8 @@ func (ma *MapAlgo) QueryPoint(point structs.Point) int {
 }
 
 func (ma *MapAlgo) Prepare() {
+
+	ma.zipCords = createZippedCordsFromRecs(ma.recs)
 
 	for _, rec := range ma.recs {
 		zippedLeft := ma.zipCords.GetZippedPoint(rec.LeftDown)
