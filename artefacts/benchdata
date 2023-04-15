@@ -1,0 +1,207 @@
+{"Time":"2023-04-15T17:32:40.076049476+03:00","Action":"output","Package":"lab2/contest","Output":"PASS\n"}
+{"Time":"2023-04-15T17:32:40.07656448+03:00","Action":"output","Package":"lab2/contest","Output":"ok  \tlab2/contest\t0.004s\n"}
+{"Time":"2023-04-15T17:32:40.076592914+03:00","Action":"pass","Package":"lab2/contest","Elapsed":0.004}
+{"Time":"2023-04-15T17:32:40.080635914+03:00","Action":"output","Package":"lab2/src/algo","Output":"goos: linux\n"}
+{"Time":"2023-04-15T17:32:40.080688834+03:00","Action":"output","Package":"lab2/src/algo","Output":"goarch: amd64\n"}
+{"Time":"2023-04-15T17:32:40.080694224+03:00","Action":"output","Package":"lab2/src/algo","Output":"pkg: lab2/src/algo\n"}
+{"Time":"2023-04-15T17:32:40.08069783+03:00","Action":"output","Package":"lab2/src/algo","Output":"cpu: AMD Ryzen 5 5500U with Radeon Graphics         \n"}
+{"Time":"2023-04-15T17:32:40.080702118+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing\n"}
+{"Time":"2023-04-15T17:32:40.082589954+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/mapAlgo:Prepare:10\n"}
+{"Time":"2023-04-15T17:32:40.086079037+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/mapAlgo:Prepare:10-12         \t1000000000\t         0.0000100 ns/op\n"}
+{"Time":"2023-04-15T17:32:40.086133459+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/treeAlgo:Prepare:10\n"}
+{"Time":"2023-04-15T17:32:41.438088942+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/treeAlgo:Prepare:10-12        \t   51621\t     21018 ns/op\n"}
+{"Time":"2023-04-15T17:32:41.438201272+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/mapAlgo:Prepare:20\n"}
+{"Time":"2023-04-15T17:32:41.464121621+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/mapAlgo:Prepare:20-12         \t1000000000\t         0.0000532 ns/op\n"}
+{"Time":"2023-04-15T17:32:41.464160053+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/treeAlgo:Prepare:20\n"}
+{"Time":"2023-04-15T17:32:43.069832387+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/treeAlgo:Prepare:20-12        \t   28962\t     39071 ns/op\n"}
+{"Time":"2023-04-15T17:32:43.069987698+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/mapAlgo:Prepare:50\n"}
+{"Time":"2023-04-15T17:32:43.224661975+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/mapAlgo:Prepare:50-12         \t1000000000\t         0.0005914 ns/op\n"}
+{"Time":"2023-04-15T17:32:43.224724442+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/treeAlgo:Prepare:50\n"}
+{"Time":"2023-04-15T17:32:45.157092124+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/treeAlgo:Prepare:50-12        \t    9646\t    125288 ns/op\n"}
+{"Time":"2023-04-15T17:32:45.157312817+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/mapAlgo:Prepare:80\n"}
+{"Time":"2023-04-15T17:32:45.257308445+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/mapAlgo:Prepare:80-12         \t1000000000\t         0.004396 ns/op\n"}
+{"Time":"2023-04-15T17:32:45.257372575+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/treeAlgo:Prepare:80\n"}
+{"Time":"2023-04-15T17:32:47.209460716+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/treeAlgo:Prepare:80-12        \t    5667\t    222590 ns/op\n"}
+{"Time":"2023-04-15T17:32:47.209929323+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/mapAlgo:Prepare:100\n"}
+{"Time":"2023-04-15T17:32:47.318559901+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/mapAlgo:Prepare:100-12        \t1000000000\t         0.006479 ns/op\n"}
+{"Time":"2023-04-15T17:32:47.318640101+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/treeAlgo:Prepare:100\n"}
+{"Time":"2023-04-15T17:32:49.376032878+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/treeAlgo:Prepare:100-12       \t    4212\t    272258 ns/op\n"}
+{"Time":"2023-04-15T17:32:49.376182859+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/mapAlgo:Prepare:150\n"}
+{"Time":"2023-04-15T17:32:49.539737653+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/mapAlgo:Prepare:150-12        \t1000000000\t         0.01893 ns/op\n"}
+{"Time":"2023-04-15T17:32:49.539792466+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/treeAlgo:Prepare:150\n"}
+{"Time":"2023-04-15T17:32:51.687929754+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/treeAlgo:Prepare:150-12       \t    2619\t    446225 ns/op\n"}
+{"Time":"2023-04-15T17:32:51.688468132+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/mapAlgo:Prepare:250\n"}
+{"Time":"2023-04-15T17:32:52.238194142+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/mapAlgo:Prepare:250-12        \t1000000000\t         0.06080 ns/op\n"}
+{"Time":"2023-04-15T17:32:52.238264864+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/treeAlgo:Prepare:250\n"}
+{"Time":"2023-04-15T17:32:53.445489684+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/treeAlgo:Prepare:250-12       \t    1129\t    958835 ns/op\n"}
+{"Time":"2023-04-15T17:32:53.448138996+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/mapAlgo:Prepare:300\n"}
+{"Time":"2023-04-15T17:32:54.540678201+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/mapAlgo:Prepare:300-12        \t1000000000\t         0.1023 ns/op\n"}
+{"Time":"2023-04-15T17:32:54.540736871+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/treeAlgo:Prepare:300\n"}
+{"Time":"2023-04-15T17:32:56.940610948+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/treeAlgo:Prepare:300-12       \t    1057\t   1092857 ns/op\n"}
+{"Time":"2023-04-15T17:32:56.944830983+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/mapAlgo:Prepare:400\n"}
+{"Time":"2023-04-15T17:33:01.334341987+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/mapAlgo:Prepare:400-12        \t1000000000\t         0.2625 ns/op\n"}
+{"Time":"2023-04-15T17:33:01.334409423+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/treeAlgo:Prepare:400\n"}
+{"Time":"2023-04-15T17:33:03.846793863+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/treeAlgo:Prepare:400-12       \t     790\t   1496711 ns/op\n"}
+{"Time":"2023-04-15T17:33:03.847926285+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/mapAlgo:Prepare:450\n"}
+{"Time":"2023-04-15T17:33:11.584324855+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/mapAlgo:Prepare:450-12        \t1000000000\t         0.3729 ns/op\n"}
+{"Time":"2023-04-15T17:33:11.584401639+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/treeAlgo:Prepare:450\n"}
+{"Time":"2023-04-15T17:33:14.102553342+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/treeAlgo:Prepare:450-12       \t     681\t   1713641 ns/op\n"}
+{"Time":"2023-04-15T17:33:14.111931876+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/mapAlgo:Prepare:500\n"}
+{"Time":"2023-04-15T17:33:29.381007401+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/mapAlgo:Prepare:500-12        \t1000000000\t         0.5364 ns/op\n"}
+{"Time":"2023-04-15T17:33:29.381103811+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/treeAlgo:Prepare:500\n"}
+{"Time":"2023-04-15T17:33:30.692278476+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/treeAlgo:Prepare:500-12       \t     522\t   2003506 ns/op\n"}
+{"Time":"2023-04-15T17:33:30.70631231+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/mapAlgo:Prepare:600\n"}
+{"Time":"2023-04-15T17:34:38.386041283+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/mapAlgo:Prepare:600-12        \t1000000000\t         0.8976 ns/op\n"}
+{"Time":"2023-04-15T17:34:38.386133977+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/treeAlgo:Prepare:600\n"}
+{"Time":"2023-04-15T17:34:41.20577279+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/treeAlgo:Prepare:600-12       \t     520\t   2415953 ns/op\n"}
+{"Time":"2023-04-15T17:34:41.208332193+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/mapAlgo:Prepare:700\n"}
+{"Time":"2023-04-15T17:34:42.691350715+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/mapAlgo:Prepare:700-12        \t       1\t1395211931 ns/op\n"}
+{"Time":"2023-04-15T17:34:42.691456944+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/treeAlgo:Prepare:700\n"}
+{"Time":"2023-04-15T17:34:44.073470691+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/treeAlgo:Prepare:700-12       \t     363\t   2766565 ns/op\n"}
+{"Time":"2023-04-15T17:34:44.096187775+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/mapAlgo:Prepare:800\n"}
+{"Time":"2023-04-15T17:34:46.21703933+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/mapAlgo:Prepare:800-12        \t       1\t2071967904 ns/op\n"}
+{"Time":"2023-04-15T17:34:46.217087831+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/treeAlgo:Prepare:800\n"}
+{"Time":"2023-04-15T17:34:47.713693581+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/treeAlgo:Prepare:800-12       \t     324\t   3311297 ns/op\n"}
+{"Time":"2023-04-15T17:34:47.741035447+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/mapAlgo:Prepare:900\n"}
+{"Time":"2023-04-15T17:34:50.677302958+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/mapAlgo:Prepare:900-12        \t       1\t2877231342 ns/op\n"}
+{"Time":"2023-04-15T17:34:50.677374873+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/treeAlgo:Prepare:900\n"}
+{"Time":"2023-04-15T17:34:52.241035836+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/treeAlgo:Prepare:900-12       \t     294\t   3719175 ns/op\n"}
+{"Time":"2023-04-15T17:34:52.272619036+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/mapAlgo:Prepare:1000\n"}
+{"Time":"2023-04-15T17:34:56.320375256+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/mapAlgo:Prepare:1000-12       \t       1\t3985064731 ns/op\n"}
+{"Time":"2023-04-15T17:34:56.320431461+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/treeAlgo:Prepare:1000\n"}
+{"Time":"2023-04-15T17:34:57.953142261+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/treeAlgo:Prepare:1000-12      \t     256\t   4294403 ns/op\n"}
+{"Time":"2023-04-15T17:34:58.011201694+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/mapAlgo:Prepare:1300\n"}
+{"Time":"2023-04-15T17:35:06.708295394+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/mapAlgo:Prepare:1300-12       \t       1\t8663958971 ns/op\n"}
+{"Time":"2023-04-15T17:35:06.708373871+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/treeAlgo:Prepare:1300\n"}
+{"Time":"2023-04-15T17:35:08.611414815+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/treeAlgo:Prepare:1300-12      \t     202\t   6092932 ns/op\n"}
+{"Time":"2023-04-15T17:35:08.676222616+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/mapAlgo:Prepare:1500\n"}
+{"Time":"2023-04-15T17:35:21.945332927+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/mapAlgo:Prepare:1500-12       \t       1\t13203855571 ns/op\n"}
+{"Time":"2023-04-15T17:35:21.945420681+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/treeAlgo:Prepare:1500\n"}
+{"Time":"2023-04-15T17:35:23.788890306+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/treeAlgo:Prepare:1500-12      \t     171\t   6694831 ns/op\n"}
+{"Time":"2023-04-15T17:35:23.955466667+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/mapAlgo:Prepare:2000\n"}
+{"Time":"2023-04-15T17:35:54.462120783+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/mapAlgo:Prepare:2000-12       \t       1\t30473931178 ns/op\n"}
+{"Time":"2023-04-15T17:35:54.462188961+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/treeAlgo:Prepare:2000\n"}
+{"Time":"2023-04-15T17:35:56.692489326+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoPreparing/treeAlgo:Prepare:2000-12      \t     122\t   9094994 ns/op\n"}
+{"Time":"2023-04-15T17:35:56.692580768+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint\n"}
+{"Time":"2023-04-15T17:35:56.736275828+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/basicAlgo:Query:10\n"}
+{"Time":"2023-04-15T17:35:58.088443416+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/basicAlgo:Query:10-12        \t 7564438\t       156.9 ns/op\n"}
+{"Time":"2023-04-15T17:35:58.08854659+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/mapAlgo:Query:10\n"}
+{"Time":"2023-04-15T17:35:58.095374698+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/mapAlgo:Query:10-12          \t1000000000\t         0.0000034 ns/op\n"}
+{"Time":"2023-04-15T17:35:58.095453646+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/treeAlgo:Query:10\n"}
+{"Time":"2023-04-15T17:35:59.650032258+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/treeAlgo:Query:10-12         \t 3453027\t       345.5 ns/op\n"}
+{"Time":"2023-04-15T17:35:59.650202237+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/basicAlgo:Query:20\n"}
+{"Time":"2023-04-15T17:36:01.392860916+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/basicAlgo:Query:20-12        \t 2197257\t       537.2 ns/op\n"}
+{"Time":"2023-04-15T17:36:01.392949172+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/mapAlgo:Query:20\n"}
+{"Time":"2023-04-15T17:36:01.399050866+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/mapAlgo:Query:20-12          \t1000000000\t         0.0000085 ns/op\n"}
+{"Time":"2023-04-15T17:36:01.399144672+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/treeAlgo:Query:20\n"}
+{"Time":"2023-04-15T17:36:03.28476808+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/treeAlgo:Query:20-12         \t 1500529\t       788.1 ns/op\n"}
+{"Time":"2023-04-15T17:36:03.285109391+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/basicAlgo:Query:50\n"}
+{"Time":"2023-04-15T17:36:05.472235908+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/basicAlgo:Query:50-12        \t  343646\t      3455 ns/op\n"}
+{"Time":"2023-04-15T17:36:05.472355973+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/mapAlgo:Query:50\n"}
+{"Time":"2023-04-15T17:36:05.478232906+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/mapAlgo:Query:50-12          \t1000000000\t         0.0000128 ns/op\n"}
+{"Time":"2023-04-15T17:36:05.478296565+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/treeAlgo:Query:50\n"}
+{"Time":"2023-04-15T17:36:07.613612522+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/treeAlgo:Query:50-12         \t  470706\t      2576 ns/op\n"}
+{"Time":"2023-04-15T17:36:07.615605096+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/basicAlgo:Query:80\n"}
+{"Time":"2023-04-15T17:36:08.836310016+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/basicAlgo:Query:80-12        \t  118960\t      9342 ns/op\n"}
+{"Time":"2023-04-15T17:36:08.836380429+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/mapAlgo:Query:80\n"}
+{"Time":"2023-04-15T17:36:08.843389649+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/mapAlgo:Query:80-12          \t1000000000\t         0.0000229 ns/op\n"}
+{"Time":"2023-04-15T17:36:08.843455513+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/treeAlgo:Query:80\n"}
+{"Time":"2023-04-15T17:36:09.974399456+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/treeAlgo:Query:80-12         \t  245599\t      4382 ns/op\n"}
+{"Time":"2023-04-15T17:36:09.977990063+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/basicAlgo:Query:100\n"}
+{"Time":"2023-04-15T17:36:11.281228224+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/basicAlgo:Query:100-12       \t   86161\t     13394 ns/op\n"}
+{"Time":"2023-04-15T17:36:11.281303055+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/mapAlgo:Query:100\n"}
+{"Time":"2023-04-15T17:36:11.28829312+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/mapAlgo:Query:100-12         \t1000000000\t         0.0000353 ns/op\n"}
+{"Time":"2023-04-15T17:36:11.288367439+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/treeAlgo:Query:100\n"}
+{"Time":"2023-04-15T17:36:12.416618825+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/treeAlgo:Query:100-12        \t  186018\t      5685 ns/op\n"}
+{"Time":"2023-04-15T17:36:12.43624263+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/basicAlgo:Query:150\n"}
+{"Time":"2023-04-15T17:36:13.93789436+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/basicAlgo:Query:150-12       \t   42402\t     28519 ns/op\n"}
+{"Time":"2023-04-15T17:36:13.937982456+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/mapAlgo:Query:150\n"}
+{"Time":"2023-04-15T17:36:13.945543615+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/mapAlgo:Query:150-12         \t1000000000\t         0.0000545 ns/op\n"}
+{"Time":"2023-04-15T17:36:13.945618275+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/treeAlgo:Query:150\n"}
+{"Time":"2023-04-15T17:36:15.181626797+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/treeAlgo:Query:150-12        \t  124630\t      9082 ns/op\n"}
+{"Time":"2023-04-15T17:36:15.259764451+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/basicAlgo:Query:250\n"}
+{"Time":"2023-04-15T17:36:17.249156405+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/basicAlgo:Query:250-12       \t   14998\t     78100 ns/op\n"}
+{"Time":"2023-04-15T17:36:17.249272934+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/mapAlgo:Query:250\n"}
+{"Time":"2023-04-15T17:36:17.262861289+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/mapAlgo:Query:250-12         \t1000000000\t         0.0000712 ns/op\n"}
+{"Time":"2023-04-15T17:36:17.262937071+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/treeAlgo:Query:250\n"}
+{"Time":"2023-04-15T17:36:18.685114481+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/treeAlgo:Query:250-12        \t   49363\t     23579 ns/op\n"}
+{"Time":"2023-04-15T17:36:18.82918227+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/basicAlgo:Query:300\n"}
+{"Time":"2023-04-15T17:36:20.812272765+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/basicAlgo:Query:300-12       \t   10794\t    109270 ns/op\n"}
+{"Time":"2023-04-15T17:36:20.812350731+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/mapAlgo:Query:300\n"}
+{"Time":"2023-04-15T17:36:20.823329394+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/mapAlgo:Query:300-12         \t1000000000\t         0.0001648 ns/op\n"}
+{"Time":"2023-04-15T17:36:20.823479566+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/treeAlgo:Query:300\n"}
+{"Time":"2023-04-15T17:36:22.419350179+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/treeAlgo:Query:300-12        \t   29158\t     40090 ns/op\n"}
+{"Time":"2023-04-15T17:36:22.792843871+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/basicAlgo:Query:400\n"}
+{"Time":"2023-04-15T17:36:24.806417898+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/basicAlgo:Query:400-12       \t    6232\t    195285 ns/op\n"}
+{"Time":"2023-04-15T17:36:24.806498169+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/mapAlgo:Query:400\n"}
+{"Time":"2023-04-15T17:36:24.819036894+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/mapAlgo:Query:400-12         \t1000000000\t         0.0001897 ns/op\n"}
+{"Time":"2023-04-15T17:36:24.819115481+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/treeAlgo:Query:400\n"}
+{"Time":"2023-04-15T17:36:26.562240194+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/treeAlgo:Query:400-12        \t   17283\t     68819 ns/op\n"}
+{"Time":"2023-04-15T17:36:27.111910108+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/basicAlgo:Query:450\n"}
+{"Time":"2023-04-15T17:36:28.168625759+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/basicAlgo:Query:450-12       \t    4147\t    244398 ns/op\n"}
+{"Time":"2023-04-15T17:36:28.16871654+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/mapAlgo:Query:450\n"}
+{"Time":"2023-04-15T17:36:28.187085945+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/mapAlgo:Query:450-12         \t1000000000\t         0.0001576 ns/op\n"}
+{"Time":"2023-04-15T17:36:28.187160375+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/treeAlgo:Query:450\n"}
+{"Time":"2023-04-15T17:36:30.027980527+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/treeAlgo:Query:450-12        \t   14254\t     83625 ns/op\n"}
+{"Time":"2023-04-15T17:36:30.743948734+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/basicAlgo:Query:500\n"}
+{"Time":"2023-04-15T17:36:31.814623864+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/basicAlgo:Query:500-12       \t    3435\t    297219 ns/op\n"}
+{"Time":"2023-04-15T17:36:31.814745223+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/mapAlgo:Query:500\n"}
+{"Time":"2023-04-15T17:36:31.835521893+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/mapAlgo:Query:500-12         \t1000000000\t         0.0002539 ns/op\n"}
+{"Time":"2023-04-15T17:36:31.835611802+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/treeAlgo:Query:500\n"}
+{"Time":"2023-04-15T17:36:33.805804798+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/treeAlgo:Query:500-12        \t   12486\t     96885 ns/op\n"}
+{"Time":"2023-04-15T17:36:35.044199738+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/basicAlgo:Query:600\n"}
+{"Time":"2023-04-15T17:36:37.290168569+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/basicAlgo:Query:600-12       \t    2804\t    431403 ns/op\n"}
+{"Time":"2023-04-15T17:36:37.290253459+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/mapAlgo:Query:600\n"}
+{"Time":"2023-04-15T17:36:37.307120254+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/mapAlgo:Query:600-12         \t1000000000\t         0.0003290 ns/op\n"}
+{"Time":"2023-04-15T17:36:37.307212156+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/treeAlgo:Query:600\n"}
+{"Time":"2023-04-15T17:36:39.283326317+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/treeAlgo:Query:600-12        \t    9735\t    126302 ns/op\n"}
+{"Time":"2023-04-15T17:36:41.010282825+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/basicAlgo:Query:700\n"}
+{"Time":"2023-04-15T17:36:42.278781479+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/basicAlgo:Query:700-12       \t    1897\t    628428 ns/op\n"}
+{"Time":"2023-04-15T17:36:42.279657566+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/mapAlgo:Query:700\n"}
+{"Time":"2023-04-15T17:36:42.299261217+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/mapAlgo:Query:700-12         \t1000000000\t         0.0003017 ns/op\n"}
+{"Time":"2023-04-15T17:36:42.299334044+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/treeAlgo:Query:700\n"}
+{"Time":"2023-04-15T17:36:44.268674843+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/treeAlgo:Query:700-12        \t    8035\t    149559 ns/op\n"}
+{"Time":"2023-04-15T17:36:46.338096055+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/basicAlgo:Query:800\n"}
+{"Time":"2023-04-15T17:36:48.560233246+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/basicAlgo:Query:800-12       \t    1546\t    763867 ns/op\n"}
+{"Time":"2023-04-15T17:36:48.56032558+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/mapAlgo:Query:800\n"}
+{"Time":"2023-04-15T17:36:48.589362418+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/mapAlgo:Query:800-12         \t1000000000\t         0.0005493 ns/op\n"}
+{"Time":"2023-04-15T17:36:48.58946983+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/treeAlgo:Query:800\n"}
+{"Time":"2023-04-15T17:36:50.750830014+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/treeAlgo:Query:800-12        \t    6724\t    182047 ns/op\n"}
+{"Time":"2023-04-15T17:36:53.745086018+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/basicAlgo:Query:900\n"}
+{"Time":"2023-04-15T17:36:54.986543762+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/basicAlgo:Query:900-12       \t    1142\t    969657 ns/op\n"}
+{"Time":"2023-04-15T17:36:54.986667756+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/mapAlgo:Query:900\n"}
+{"Time":"2023-04-15T17:36:55.021019771+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/mapAlgo:Query:900-12         \t1000000000\t         0.0005647 ns/op\n"}
+{"Time":"2023-04-15T17:36:55.021105342+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/treeAlgo:Query:900\n"}
+{"Time":"2023-04-15T17:36:57.237134163+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/treeAlgo:Query:900-12        \t    5798\t    217560 ns/op\n"}
+{"Time":"2023-04-15T17:37:01.24911251+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/basicAlgo:Query:1000\n"}
+{"Time":"2023-04-15T17:37:02.519802533+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/basicAlgo:Query:1000-12      \t     961\t   1167704 ns/op\n"}
+{"Time":"2023-04-15T17:37:02.519884607+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/mapAlgo:Query:1000\n"}
+{"Time":"2023-04-15T17:37:02.557210049+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/mapAlgo:Query:1000-12        \t1000000000\t         0.0006408 ns/op\n"}
+{"Time":"2023-04-15T17:37:02.557307853+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/treeAlgo:Query:1000\n"}
+{"Time":"2023-04-15T17:37:03.77633539+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/treeAlgo:Query:1000-12       \t    5017\t    235086 ns/op\n"}
+{"Time":"2023-04-15T17:37:12.509057943+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/basicAlgo:Query:1300\n"}
+{"Time":"2023-04-15T17:37:13.887186904+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/basicAlgo:Query:1300-12      \t     579\t   1974855 ns/op\n"}
+{"Time":"2023-04-15T17:37:13.88726468+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/mapAlgo:Query:1300\n"}
+{"Time":"2023-04-15T17:37:13.92452594+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/mapAlgo:Query:1300-12        \t1000000000\t         0.0006173 ns/op\n"}
+{"Time":"2023-04-15T17:37:13.924613956+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/treeAlgo:Query:1300\n"}
+{"Time":"2023-04-15T17:37:16.119462972+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/treeAlgo:Query:1300-12       \t    3740\t    316290 ns/op\n"}
+{"Time":"2023-04-15T17:37:29.334146744+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/basicAlgo:Query:1500\n"}
+{"Time":"2023-04-15T17:37:30.801502755+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/basicAlgo:Query:1500-12      \t     444\t   2617126 ns/op\n"}
+{"Time":"2023-04-15T17:37:30.801590671+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/mapAlgo:Query:1500\n"}
+{"Time":"2023-04-15T17:37:30.846328698+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/mapAlgo:Query:1500-12        \t1000000000\t         0.0009674 ns/op\n"}
+{"Time":"2023-04-15T17:37:30.846421432+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/treeAlgo:Query:1500\n"}
+{"Time":"2023-04-15T17:37:32.081496017+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/treeAlgo:Query:1500-12       \t    3106\t    378698 ns/op\n"}
+{"Time":"2023-04-15T17:38:02.418296736+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/basicAlgo:Query:2000\n"}
+{"Time":"2023-04-15T17:38:04.134522437+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/basicAlgo:Query:2000-12      \t     255\t   4682870 ns/op\n"}
+{"Time":"2023-04-15T17:38:04.134633036+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/mapAlgo:Query:2000\n"}
+{"Time":"2023-04-15T17:38:04.182665914+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/mapAlgo:Query:2000-12        \t1000000000\t         0.001239 ns/op\n"}
+{"Time":"2023-04-15T17:38:04.182754761+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/treeAlgo:Query:2000\n"}
+{"Time":"2023-04-15T17:38:05.420646274+03:00","Action":"output","Package":"lab2/src/algo","Output":"BenchmarkAllAlgoQueryPoint/treeAlgo:Query:2000-12       \t    2155\t    536649 ns/op\n"}
+{"Time":"2023-04-15T17:38:05.4207341+03:00","Action":"output","Package":"lab2/src/algo","Output":"PASS\n"}
+{"Time":"2023-04-15T17:38:05.434529026+03:00","Action":"output","Package":"lab2/src/algo","Output":"ok  \tlab2/src/algo\t325.357s\n"}
+{"Time":"2023-04-15T17:38:05.434583729+03:00","Action":"pass","Package":"lab2/src/algo","Elapsed":325.357}
+{"Time":"2023-04-15T17:38:05.439121217+03:00","Action":"output","Package":"lab2/src/generator","Output":"PASS\n"}
+{"Time":"2023-04-15T17:38:05.439753356+03:00","Action":"output","Package":"lab2/src/generator","Output":"ok  \tlab2/src/generator\t0.004s\n"}
+{"Time":"2023-04-15T17:38:05.439791338+03:00","Action":"pass","Package":"lab2/src/generator","Elapsed":0.004}
+{"Time":"2023-04-15T17:38:05.440748549+03:00","Action":"output","Package":"lab2/src/structs","Output":"?   \tlab2/src/structs\t[no test files]\n"}
+{"Time":"2023-04-15T17:38:05.440824923+03:00","Action":"skip","Package":"lab2/src/structs","Elapsed":0}
