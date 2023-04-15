@@ -43,6 +43,8 @@
 Реализация подготовки:    
     
     func (ma *MapAlgo) Prepare() {
+        
+        ma.zipCords = createZippedCordsFromRecs(ma.recs)
 
         for _, rec := range ma.recs {
             zippedLeft := ma.zipCords.GetZippedPoint(rec.LeftDown)
@@ -86,8 +88,9 @@ root дерева и получаем из него ответ для нашей
 Построение:
 
     func (pta *PersistentTreeAlgo) Prepare() {
+        pta.zipCords = createZippedCordsFromRecs(pta.recs)
         events := pta.createEventsForPersistentSegTree()
-    pta.createPersistentSegmentTree(events)
+        pta.createPersistentSegmentTree(events)
     }
     
     func (pta *PersistentTreeAlgo) createPersistentSegmentTree(events []structs.Event) {
