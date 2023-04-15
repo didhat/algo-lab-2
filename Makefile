@@ -21,3 +21,10 @@ graphs:
 
 python-tests:
 	python -m unittest discover  -v -s visual/
+
+python-setup:
+	mkdir venv
+	python3.11 -m venv venv
+
+python-depends:
+	pip install -r requirements.txt
