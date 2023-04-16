@@ -30,7 +30,40 @@
         }
         return answer
     }
+
+### Сжатие координат.
+
+Для следующих двух алгоритмов будет использоваться сжатие координат. Для этого мы берем все неповторяющиеся 
+координаты точек по x и y и сортируем их. Сжатая координата будет равна позиции точки в этом массиве. Находим мы
+эту позицию с помощью бинарного поиска. Так же мы добавляем дополнительные точки, чтобы при сжатии координат,
+которые находятся между прямоугольников так же попадали в этот сжатый промежуток. Все методы данной структуры
+можно посмотреть в модуле `src/algo/zipper`
     
+    type ZippedCordsImp struct {
+	zippedXCords []int
+	zippedYCords []int
+    }
+
+    func createZippedCordsFromRecs(recs []structs.Rectangle) ZippedCordsImp {
+        xCords := make([]int, 0, len(recs)*4)
+        yCords := make([]int, 0, len(recs)*4)
+    
+        for _, rec := range recs {
+            xCords = append(xCords, rec.LeftDown.X, rec.RightTop.X, rec.RightTop.X+1)
+            yCords = append(yCords, rec.LeftDown.Y, rec.RightTop.Y, rec.RightTop.Y+1)
+        }
+    
+        sort.Sort(sort.IntSlice(xCords))
+        sort.Sort(sort.IntSlice(yCords))
+    
+        xCords = removeDuplicates(xCords)
+        yCords = removeDuplicates(yCords)
+    
+        return ZippedCordsImp{zippedYCords: yCords, zippedXCords: xCords}
+    }
+    
+
+
 ### Алгоритм на карте
 Идея данного алгоритма состоит в том, чтобы сжать координаты по x и y.
 После этого мы создаем двумерный массив(это и есть карта), позиции
